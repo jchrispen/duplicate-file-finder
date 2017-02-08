@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:duplicate_file_finder"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Duplicate File Finder" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="txbxFolderPath" HorizontalAlignment="Left" Height="32" Margin="10,50,0,237" TextWrapping="NoWrap" FontSize="20" Text="" VerticalAlignment="Center" Width="406"/>
+        <Button x:Name="btnFolderPath" Content="Select" HorizontalAlignment="Left" Margin="421,50,0,0" VerticalAlignment="Top" FontSize="20" Width="74" Height="32" Click="btnFolderPath_Click"/>
+        <Button x:Name="btnStartScan" Content="Start" HorizontalAlignment="Left" Margin="395,240,0,0" VerticalAlignment="Top" FontSize="20" Width="100" Height="50"/>
     </Grid>
 </Window>
